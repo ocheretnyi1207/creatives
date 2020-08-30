@@ -1,0 +1,19 @@
+.contact {
+  padding-top: 144px;
+  padding-bottom: 100px;
+  background: url("../../img/bg-feedback.jpg") no-repeat;
+
+  &__title {
+    width: 880px;
+    height: 182px;
+    margin-right: auto;
+    margin-bottom: 3px;
+    margin-left: 366px;
+    padding-top: 74px;
+    font-weight: 500;
+    font-size: 2.313rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    background: url("../../img/bg-C.png") no-repeat center top;
+  }
+}

@@ -1,0 +1,11 @@
+section.key-feature
+  h2.visuallyhidden Key Feature Title
+  .key-feature__wrapper
+    .key-feature__inerwrapper
+      p.key-feature__title Akita Inu Dog
+      p.key-feature__text Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+      ul.key-feature__list
+        - var features = ["Fully Responsive Design", "High Quality Code", "Different Headers & Layout"]
+        each item in features
+          li.key-feature__item= item
+    img(src = "./img/phone.png", width = "390", height = "651", alt = "Key Feature Image")

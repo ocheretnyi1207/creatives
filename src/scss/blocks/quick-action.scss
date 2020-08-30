@@ -1,0 +1,35 @@
+.quick-action {
+  padding-top: 104px;
+  padding-bottom: 154px;
+  background-color: #11749e;
+
+  &__list {
+    @include reset-list;
+    display: flex;
+    justify-content: space-between;
+
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  &__item {
+    position: relative;
+    box-sizing: border-box;
+    width: 554px;
+    padding-left: 103px;
+    font-size: 0.938rem;
+    line-height: 1.5rem;
+    color: #ffffff;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 6px;
+      left: 0;
+      width: 69px;
+      height: 69px;
+      background: url("../../img/copy-icon-big.png") no-repeat;
+    }
+  }
+}

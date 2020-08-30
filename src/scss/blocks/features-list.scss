@@ -1,0 +1,99 @@
+.features-list {
+  @include reset-list;
+  display: flex;
+  width: 1166px;
+  margin-right: auto;
+
+  margin-left: 217px;
+  color: #ffffff;
+
+  &__item {
+    position: relative;
+    width: 284px;
+    margin-right: 42px;
+
+
+    &::before {
+     content: "";
+     position: absolute;
+     top: -151px;
+     left: 61px;
+     width: 133px;
+     height: 133px;
+     background: rgba(255, 255, 255, 0.18);
+     border: none;
+     border-radius: 50%;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: -100px;
+      height: 34px;
+    }
+
+    &:first-child {
+      margin-right: 46px;
+
+      &::before {
+        left: 67px;
+      }
+
+      &::after {
+        left: 116px;
+        width: 34px;
+        background: url("../../img/copy-icon.png")
+      }
+    }
+
+    &:nth-child(4n+2) {
+      .features-list__item-title {
+        margin-left: 65px;
+      }
+
+      &::after {
+        left: 110px;
+        width: 34px;
+        background: url("../../img/copy-icon.png")
+      }
+    }
+
+    &:nth-child(4n+3) {
+      .features-list__item-title {
+        margin-left: 46px;
+      }
+
+      &::after {
+        left: 109px;
+        width: 35px;
+        background: url("../../img/search-icon.png")
+      }
+    }
+
+    &:last-child {
+      margin-right: 0;
+
+      .features-list__item-title {
+        margin-left: 50px;
+      }
+
+      &::after {
+        left: 110px;
+        width: 30px;
+        background: url("../../img/says-icon.png")
+      }
+    }
+
+    &-title {
+      margin-bottom: 26px;
+      margin-left: 69px;
+      font-size: 1.125rem;
+    }
+
+    &-description {
+      font-weight: 400;
+      font-size: 0.938rem;
+      line-height: 1.5rem;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 46px;
+  padding-right: 223px;
+  padding-bottom: 50px;
+  padding-left: 221px;
+  background-color: #222222;
+
+  &__copyrights {
+    padding-top: 10px;
+    font-size: 0.813rem;
+    color: #ffffff;
+    letter-spacing: -0.016rem;
+  }
+
+  span {
+    width: 192px;
+    height: 26px;
+    background: url("../../img/disign-footer.png") no-repeat;
+  }
+}

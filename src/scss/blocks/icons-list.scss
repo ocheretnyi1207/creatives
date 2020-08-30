@@ -1,0 +1,56 @@
+.icons-list {
+  @include reset-list;
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 180px;
+  margin-top: 35px;
+  margin-right: -15px;
+
+  &__item {
+    a {
+      display: block;
+    }
+
+    &:first-child {
+      margin-top: -3px;
+      margin-right: 33px;
+
+      a {
+        width: 10px;
+        height: 20px;
+        background: url("../../img/facebook-icon.svg") no-repeat;
+      }
+    }
+
+    &:nth-child(4n+2) {
+      margin-right: 24px;
+
+      a {
+        width: 18px;
+        height: 15px;
+        background: url("../../img/twitter-icon.svg") no-repeat;
+      }
+    }
+
+    &:nth-child(4n+3) {
+      margin-top: -3px;
+      margin-right: 22px;
+
+      a {
+        width: 18px;
+        height: 18px;
+        background: url("../../img/skype-icon.svg") no-repeat;
+      }
+    }
+
+    &:last-child {
+      a {
+        width: 18px;
+        height: 17px;
+        background: url("../../img/linkedin-icon.svg") no-repeat;
+      }
+    }
+  }
+
+}

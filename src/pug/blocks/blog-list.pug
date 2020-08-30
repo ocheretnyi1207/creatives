@@ -1,0 +1,7 @@
+ul.blog-list
+    - var paths = ["./img/item-blog-1.jpg", "./img/item-blog-2.jpg", "./img/item-blog-3.jpg", "./img/item-blog-4.jpg"]
+    each item in paths
+      li.blog-list__item
+        img(src= item, width = "270", height = "280", alt = "Content Image")
+        p.blog-list__item-title Fresh Summer Campaign
+        p.blog-list__item-description Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue

@@ -1,0 +1,81 @@
+.page-header {
+  padding-top: 22px;
+  padding-bottom: 108px;
+  background: url("../../img/bg-header.jpg") no-repeat;
+
+  &__outerwrapper {
+    margin-bottom: 239px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.38);
+  }
+
+  &__innerwrapper {
+    display: flex;
+    width: 1200px;
+    margin-left: 214px;
+  }
+
+  &__logo {
+    margin-right: 227px;
+  }
+
+  &__nav {
+    display: flex;
+    width: 100%;
+  }
+
+  &__title {
+    max-width: 835px;
+    margin-right: auto;
+    margin-left: 384px;
+    font-size: 9.563rem;
+    color: #f5f5f5;
+    text-transform: uppercase;
+    letter-spacing: -0.531rem;
+  }
+
+  &__text {
+    max-width: 850px;
+    margin-bottom: 147px;
+    margin-left: 393px;
+    font-weight: 500;
+    font-size: 1.563rem;
+    color: #11749e;
+    text-transform: uppercase;
+    letter-spacing: 1.138rem;
+  }
+
+  &__btn {
+    position: relative;
+    width: 65px;
+    height: 65px;
+    margin-right: auto;
+    margin-left: 764px;
+    font-size: 0;
+    background: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+
+    &::after {
+      content: "Scroll Down";
+      position: absolute;
+      top: -40px;
+      left: -5px;
+      width: 80px;
+      font-size: 0.813rem;
+      line-height: 1.375rem;
+      color: #ffffff;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 24px;
+      left: 26px;
+      width: 11px;
+      height: 13px;
+      background: url("../../img/chevron-down-solid.svg");
+    }
+
+  }
+}

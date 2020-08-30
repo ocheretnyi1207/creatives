@@ -1,0 +1,20 @@
+.features {
+  padding-top: 102px;
+  padding-bottom: 123px;
+  background: #11749e;
+
+  &__title {
+    height: 176px;
+    margin-right: auto;
+    margin-bottom: 158px;
+    margin-left: 491px;
+    padding-top: 61px;
+    font-weight: 500;
+    font-size: 2.375rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: -0.0125rem;
+    background: url("../../img/bg-W.png") no-repeat 222px -2px;
+  }
+
+}
