@@ -1,6 +1,6 @@
 .blog {
   padding-top: 92px;
-  padding-bottom: 110px;
+  padding-bottom: 75px;
 
   &__title {
     width: 240px;
@@ -14,12 +14,14 @@
     line-height: 2.813rem;
     color: #222222;
     text-transform: uppercase;
-    background: url("../../img/bg-B.png") no-repeat 56px 2px;
+    background: url("../img/bg-B.png") no-repeat 56px 2px;
   }
 
   &__text {
+    max-width: 790px;
     margin-bottom: 74px;
     margin-left: 410px;
+    margin-right: auto;
     font-size: 1.875rem;
     line-height: 2.313rem;
     color: #222222;

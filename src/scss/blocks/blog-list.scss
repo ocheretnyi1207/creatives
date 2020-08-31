@@ -1,13 +1,16 @@
 .blog-list {
   @include reset-list;
   display: flex;
+  flex-wrap: wrap;
 
   width: 1170px;
   margin-right: auto;
   margin-left: auto;
 
   &__item {
+    width: 270px;
     margin-right: 29px;
+    margin-bottom: 35px;
 
     img {
       margin-bottom: 28px;

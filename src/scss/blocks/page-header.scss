@@ -1,7 +1,7 @@
 .page-header {
   padding-top: 22px;
   padding-bottom: 108px;
-  background: url("../../img/bg-header.jpg") no-repeat;
+  background: #2e2c29 url("../img/bg-header.jpg") no-repeat;
 
   &__outerwrapper {
     margin-bottom: 239px;
@@ -74,7 +74,7 @@
       left: 26px;
       width: 11px;
       height: 13px;
-      background: url("../../img/chevron-down-solid.svg");
+      background: url("../img/chevron-down-solid.svg");
     }
 
   }
