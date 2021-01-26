@@ -1,9 +1,7 @@
 # Creatives
 
 ## Stack
-- Page markup - PUG
-- CSS - SCSS
-- Building the project - Gulp
+- PUG, SCSS, Gulp
 
 ## How to start a project
 - Download the project archive
