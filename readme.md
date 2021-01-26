@@ -16,4 +16,4 @@
 - To build the project without starting the local server, you can use the command `npm run build`, the finished assembly will be located in the folder` build`
 
 ## Creative (desktop version)
-<img src="" />
+<img src="https://github.com/ocheretnyi1207/creatives/blob/master/preview/creative.jpg" />
