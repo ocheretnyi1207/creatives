@@ -1,17 +1,16 @@
-# Верстка макета студии Creatives
+# Creatives
 
-#### Стек технологий, используемых в проекте
-- Разметка страницы - PUG
+## Stack
+- Page markup - PUG
 - CSS - SCSS
-- Весь код разделен на блоки. Блоки именованы по БЭМ
-- Сборка проекта - Gulp
+- Building the project - Gulp
 
-#### Как запустить проект
-- Скачиваем архив проекта
-- Переходим в папку на локальном ПК
-- Устанавливаем зависимости проекта, командой `npm install`
-- Для запуска проекта необходимо выполнить `npm start`
+## How to start a project
+- Download the project archive
+- Go to the folder on the local PC
+- Install project dependencies using the command `npm install`
+- To start the project you need to execute `npm start`
 
 
-#### Как собрать проект
-- Собрать проект без запуска локального сервера, можно при помощи команды `npm run build`, готовая сборка будет находится в папке `build`
+## How to build a project
+- To build the project without starting the local server, you can use the command `npm run build`, the finished assembly will be located in the folder` build`
